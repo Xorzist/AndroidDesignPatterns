@@ -17,6 +17,9 @@ class DummyParentDataItem implements Serializable {
         this.childDataItems = childDataItems;
     }
 
+    public DummyParentDataItem() {
+    }
+
     public String getParentName() {
         return parentName;
     }
@@ -32,4 +35,5 @@ class DummyParentDataItem implements Serializable {
     public void setChildDataItems(ArrayList<DummyChildDataItem> childDataItems) {
         this.childDataItems = childDataItems;
     }
+
 }

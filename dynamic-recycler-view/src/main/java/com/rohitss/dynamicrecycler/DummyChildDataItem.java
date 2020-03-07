@@ -14,6 +14,9 @@ class DummyChildDataItem implements Serializable {
         this.childName = childName;
     }
 
+    public DummyChildDataItem() {
+    }
+
     public String getChildName() {
         return childName;
     }
